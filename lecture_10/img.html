@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 3px solid black;
+            background-color: beige;
+            display: flex;
+            margin: 3px;
+            
+        }
+
+        .box{
+            border: 2px solid black;
+        background-color:  yellowgreen;
+        margin: 2px;
+        padding: 3px;
+        }
+
+        .box1
+        {
+            border: 2px solid black;
+            /* flex-direction: row; */
+        }
+        .box2
+        {
+            border: 2px solid black;
+        }
+        p{
+        border: 1px solid black;
+        margin: 1px;
+        padding: 2px;
+        
+        }
+
+        @media (min-width :640px) {
+            .container{
+            flex-direction: row;
+        }
+    }
+        @media (max-width :640px) {
+            .container{
+            flex-direction: column;;
+        }
+    }
+        
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="box" box1>
+            <p>Lorem ipsum dolor sit.</p>
+            <p>Lorem ipsum dolor sit.</p>
+
+        </div>
+        <div class="box" box2>
+            <img src="w3.webp" alt="img" height="200px" width="400px">
+        </div>
+
+
+
+
+
+
+    </div>
+</body>
+</html>

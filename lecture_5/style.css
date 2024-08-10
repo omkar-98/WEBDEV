@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.parent{
+    position :absolute;
+    /* padding: 100px; */
+    /* margin:100px; */
+}
+
+.box{
+    padding: 4px;
+    margin:5px;
+    border: solid black 4px;
+    height: 150px;
+    width: 1200px;
+}
+
+.box1{
+    background-color: blueviolet;
+}
+
+.box2{
+    background-color: rgb(226, 43, 174);
+    position: relative;
+    top: 10px;
+    left: 80px;
+}
+
+.box3{
+    background-color: rgb(217, 120, 16);
+    position: absolute;
+    top: 130px;
+    left: 60px;
+}
+
+.box4{
+    background-color: rgb(12, 121, 103);
+}

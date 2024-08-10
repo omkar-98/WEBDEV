@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgb(205, 205, 156);
+  border: solid 5px black;
+  height: 98vh;
+  width: 98 vw;
+}
+.box {
+  background-color: rgb(155, 19, 71);
+  border: solid 2px black;
+  height: 220px;
+  width: 220px;
+  margin: 4px;
+  padding: 4px;
+  /* transition-property: all;
+    transition-duration: 3s;
+    /* transition-delay: 1s; 
+    transition-timing-function: ease-in-out; */
+
+  /* short-hand-notation-------------------------------------- */
+
+  /* transition: all 3s linear 4s;    */
+
+  transition: height 2s, width 3s;
+}
+
+.box:hover {
+  width: 1280px;
+  height: 700px;
+  background-color: greenyellow;
+}

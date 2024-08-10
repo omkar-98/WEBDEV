@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --color:rgb(145, 19, 161);
+    --seccolor: yellowgreen;
+}
+
+#nav{
+    padding: 9px;
+    background-color: var(--color);
+    border: solid 3px var(--seccolor);
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style:none;
+    padding: 25px;
+    border: solid 3px black;
+}
+
+ul li :first-child{
+    --color:rgb(19, 21, 161);
+    background-color: var(--color,orange);
+}
+
+#para{
+    background-color: var(--seccolor);
+}

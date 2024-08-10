@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container{
+    background-color: beige;
+    border: 5px solid rgb(0, 0, 0);
+    height: 98vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.box {
+  background-color: rgb(23, 155, 49);
+  border: 3px solid grey;
+  height: 200px;
+  width: 200px;
+
+ 
+  transition: all 4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+ .box:hover {
+ /* transform:rotate(-98deg); */
+/* transform: scale(2.3); */
+transform: skew(5deg);
+/* transform:translate(700px ,-700px); */
+  background-color: aqua;
+  color: brown;
+}

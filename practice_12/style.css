@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgb(207, 207, 158);
+  border: 5px solid black;
+  padding: 4px;
+  margin: 4px;
+  height: 98vh;
+  width: 98vw;
+}
+
+.circle {
+  background-color: rgb(234, 26, 199);
+  border: 2px solid black;
+  height: 160px;
+  width: 160px;
+  border-radius: 80px;
+  position: relative;
+  animation-name: movecircle;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes movecircle {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: 1300px;
+  }
+}

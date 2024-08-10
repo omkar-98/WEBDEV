@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(214, 214, 184);
+  border: 5px solid black;
+  height: 98vh;
+  width: 98vw;
+}
+
+.box {
+  background-color: rgb(164, 27, 168);
+  border: 2px solid black;
+  border-radius: 18px;
+  height: 70px;
+  width: 256px;
+  margin: 3px;
+  padding: 5px;
+  animation-name: moveright;
+  position: absolute;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+}
+@keyframes moveright {
+  from {
+    top: 630px;
+    left: 0;
+  }
+  to {
+    top: 630px;
+    left: 1240px;
+  }
+}
+
+.box1 {
+  background-color: rgb(164, 27, 168);
+  border: 2px solid black;
+  border-radius: 18px;
+  height: 70px;
+  width: 256px;
+  margin: 3px;
+  padding: 5px;
+  animation-name: moveleft;
+  position: relative;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes moveleft {
+  from {
+    top: 0;
+    left: 1240px;
+  }
+  to {
+    top: 0;
+    left: 0;
+  }
+}
+
+#circle {
+  background-color: orange;
+  border: 2px solid black;
+  border-radius: 25px;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: 250px;
+  left: 770px;
+  animation-name: movecircle;
+  position: relative;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease;
+  animation-play-state: running;
+}
+
+@keyframes movecircle {
+  0% {
+    top: 1%;
+    left: 5%;
+  }
+  30% {
+    top: 5%;
+    left: 90%;
+  }
+
+  60% {
+    top: 70%;
+    left: 10%;
+  }
+
+  100% {
+    top: 70%;
+    left: 90%;
+  }
+}

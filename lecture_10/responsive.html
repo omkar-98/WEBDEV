@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        border: 3px solid rgb(0, 0, 0);
+        background-color: rgb(212, 96, 189);
+        display: flex;
+        width: 450px;
+      }
+
+      #rightbox {
+        border: solid 2px black;
+        margin: 3px;
+        padding: 3px;
+        background-color: yellowgreen;
+        width: 49%;
+      }
+
+      #leftbox {
+        border: solid 2px black;
+        margin: 3px;
+        padding: 3px;
+        background-color: rgb(210, 68, 39);
+      }
+
+      p {
+        border: 2px solid black;
+        margin: 2px;
+        padding: 2px;
+      }
+      @media (max-width: 400px) {
+        .container {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="leftbox">
+        <p>firstpara</p>
+        <p>secondPara</p>
+      </div>
+
+      <div id="rightbox">
+        <img src="maharana_p.jpg" height="150px" width="200px" />
+      </div>
+    </div>
+  </body>
+</html>

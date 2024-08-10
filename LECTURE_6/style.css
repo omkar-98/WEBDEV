@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+.parent{
+    border: 2px solid black;
+width: 100%;
+    background-color: antiquewhite;
+}
+
+
+.child{
+    background-color: blueviolet;
+    border: solid black 2px;
+    width: 50%;
+} */
+
+/* .container{
+    border: 2px solid red;
+    height: 100vh;
+    background-color: blueviolet;
+    width: 50vw;
+}
+
+#para{
+    border: 5px dotted orange;
+    width: 100vw;
+    height: 100vh;
+    background-color : yellowgreen;
+    margin-bottom: -10px;
+} */
+
+/* pre{
+    font-size: 20px;
+}
+
+
+.storage{
+    font-size: 10px;
+    padding: 0px;
+}
+
+
+
+.container{
+    font-size: 10em;
+    background-color: greenyellow;
+    border: solid black 2px;
+    padding: 2em;
+    margin: 5em;
+} */
+
+
+.firstpara{
+    border: black 3px solid;
+    font-size: 2rem;
+    padding: 3rem;
+}
